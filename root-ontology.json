@@ -1,0 +1,368 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "undefined", "en" ],
+    "iri" : "http://webprotege.stanford.edu/project/7YxkcNsvziV1ZPOd449n0w"
+  },
+  "metrics" : {
+    "classCount" : 14,
+    "datatypeCount" : 1,
+    "objectPropertyCount" : 0,
+    "datatypePropertyCount" : 1,
+    "propertyCount" : 1,
+    "nodeCount" : 15,
+    "axiomCount" : 48,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class11",
+    "type" : "externalclass"
+  }, {
+    "id" : "class9",
+    "type" : "externalclass"
+  }, {
+    "id" : "class2",
+    "type" : "externalclass"
+  }, {
+    "id" : "class7",
+    "type" : "externalclass"
+  }, {
+    "id" : "class13",
+    "type" : "externalclass"
+  }, {
+    "id" : "class12",
+    "type" : "externalclass"
+  }, {
+    "id" : "class4",
+    "type" : "externalclass"
+  }, {
+    "id" : "class10",
+    "type" : "externalclass"
+  }, {
+    "id" : "class3",
+    "type" : "externalclass"
+  }, {
+    "id" : "class1",
+    "type" : "externalclass"
+  }, {
+    "id" : "class6",
+    "type" : "externalclass"
+  }, {
+    "id" : "class8",
+    "type" : "externalclass"
+  }, {
+    "id" : "class5",
+    "type" : "externalclass"
+  }, {
+    "id" : "thing1",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "RD06CRBvPLON4xHsvzmjwEL",
+      "undefined" : "Consumer Automobile"
+    },
+    "iri" : "http://webprotege.stanford.edu/RD06CRBvPLON4xHsvzmjwEL",
+    "attributes" : [ "external" ],
+    "subClasses" : [ "class12" ],
+    "superClasses" : [ "class7" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "R74AY0xhgC8pXAjTKPsQ02L",
+      "undefined" : "Commercial Automobile"
+    },
+    "iri" : "http://webprotege.stanford.edu/R74AY0xhgC8pXAjTKPsQ02L",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class7" ],
+    "annotations" : {
+      "R8pufPi40BUGVPdXYFnhZuI" : [ {
+        "identifier" : "R8pufPi40BUGVPdXYFnhZuI",
+        "language" : "undefined",
+        "value" : "Fill out some subclasses of commercial automobile",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "RDFuATmIOBkNClV1dY0YBwF",
+      "undefined" : "Tiguan"
+    },
+    "iri" : "http://webprotege.stanford.edu/RDFuATmIOBkNClV1dY0YBwF",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "R81YlRxyXhHrGN5Wn1odSgw",
+      "undefined" : "Automobile"
+    },
+    "iri" : "http://webprotege.stanford.edu/R81YlRxyXhHrGN5Wn1odSgw",
+    "attributes" : [ "external" ],
+    "subClasses" : [ "class9", "class11" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "R9NdjLCo52848qC1cForuJs",
+      "undefined" : "Vehicle"
+    },
+    "iri" : "http://webprotege.stanford.edu/R9NdjLCo52848qC1cForuJs",
+    "attributes" : [ "external" ],
+    "subClasses" : [ "class7" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Rp98tx9ZmeXNQykYxseaOh",
+      "undefined" : "Volkvagon Automobile"
+    },
+    "iri" : "http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh",
+    "comment" : {
+      "en" : "An automobile designed and manufactured by Volkvagon"
+    },
+    "attributes" : [ "external" ],
+    "subClasses" : [ "class10", "class4", "class8", "class2", "class6" ],
+    "superClasses" : [ "class11" ],
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.volkwagon.com",
+        "type" : "iri"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "R9lfyyQqmVlJKxwf6UYu2vf",
+      "undefined" : "Passat"
+    },
+    "iri" : "http://webprotege.stanford.edu/R9lfyyQqmVlJKxwf6UYu2vf",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "R6PxQWSQNFcrtsoaCoSAqR",
+      "undefined" : "Jetta"
+    },
+    "iri" : "http://webprotege.stanford.edu/R6PxQWSQNFcrtsoaCoSAqR",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "RDI1WC3bNvUWeg0DAsPjt2w",
+      "undefined" : "Golf (Standard)"
+    },
+    "iri" : "http://webprotege.stanford.edu/RDI1WC3bNvUWeg0DAsPjt2w",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "RCUZPnVduW3gj3xvRsZ4FS7",
+      "undefined" : "Golf Estate"
+    },
+    "iri" : "http://webprotege.stanford.edu/RCUZPnVduW3gj3xvRsZ4FS7",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "RLXhLtYCgAAwl4zk7qL3iQ",
+      "undefined" : "Beetle"
+    },
+    "iri" : "http://webprotege.stanford.edu/RLXhLtYCgAAwl4zk7qL3iQ",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "RCLa0s4WRQGJ0XjuJPF2kMx",
+      "undefined" : "Golf"
+    },
+    "iri" : "http://webprotege.stanford.edu/RCLa0s4WRQGJ0XjuJPF2kMx",
+    "attributes" : [ "external" ],
+    "subClasses" : [ "class1", "class3", "class5" ],
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "RWMjs52KNml0wyVgcJqx1t",
+      "undefined" : "Golf GTI"
+    },
+    "iri" : "http://webprotege.stanford.edu/RWMjs52KNml0wyVgcJqx1t",
+    "attributes" : [ "external" ],
+    "superClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "thing1",
+    "label" : {
+      "undefined" : "Thing"
+    },
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "instances" : 0
+  } ],
+  "datatype" : [ {
+    "id" : "literal1",
+    "type" : "rdfs:Literal"
+  } ],
+  "datatypeAttribute" : [ {
+    "id" : "literal1",
+    "label" : {
+      "IRI-based" : "Literal"
+    },
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "property" : [ {
+    "id" : "property13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Rt5a7wS2prBJSD9Xc4LP3h",
+      "undefined" : "hasBodyStyle"
+    },
+    "iri" : "http://webprotege.stanford.edu/Rt5a7wS2prBJSD9Xc4LP3h",
+    "attributes" : [ "external" ],
+    "domain" : "thing1",
+    "range" : "literal1"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class12"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class12"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class13"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class12"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class7"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class12"
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class7"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class12"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class11"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class8"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class8"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class8"
+  } ]
+}
