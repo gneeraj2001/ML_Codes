@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/7YxkcNsvziV1ZPOd449n0w#"
+     xml:base="http://webprotege.stanford.edu/project/7YxkcNsvziV1ZPOd449n0w"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/7YxkcNsvziV1ZPOd449n0w"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pufPi40BUGVPdXYFnhZuI -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8pufPi40BUGVPdXYFnhZuI">
+        <rdfs:label>todo</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rt5a7wS2prBJSD9Xc4LP3h -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rt5a7wS2prBJSD9Xc4LP3h">
+        <rdfs:label>hasBodyStyle</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6PxQWSQNFcrtsoaCoSAqR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6PxQWSQNFcrtsoaCoSAqR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh"/>
+        <rdfs:label>Jetta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74AY0xhgC8pXAjTKPsQ02L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74AY0xhgC8pXAjTKPsQ02L">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81YlRxyXhHrGN5Wn1odSgw"/>
+        <webprotege:R8pufPi40BUGVPdXYFnhZuI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fill out some subclasses of commercial automobile</webprotege:R8pufPi40BUGVPdXYFnhZuI>
+        <rdfs:label>Commercial Automobile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81YlRxyXhHrGN5Wn1odSgw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81YlRxyXhHrGN5Wn1odSgw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9NdjLCo52848qC1cForuJs"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rt5a7wS2prBJSD9Xc4LP3h"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Style</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Automobile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NdjLCo52848qC1cForuJs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9NdjLCo52848qC1cForuJs">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lfyyQqmVlJKxwf6UYu2vf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lfyyQqmVlJKxwf6UYu2vf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh"/>
+        <rdfs:label>Passat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLa0s4WRQGJ0XjuJPF2kMx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCLa0s4WRQGJ0XjuJPF2kMx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh"/>
+        <rdfs:label>Golf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUZPnVduW3gj3xvRsZ4FS7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCUZPnVduW3gj3xvRsZ4FS7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLa0s4WRQGJ0XjuJPF2kMx"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rt5a7wS2prBJSD9Xc4LP3h"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Style</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Golf Estate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD06CRBvPLON4xHsvzmjwEL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD06CRBvPLON4xHsvzmjwEL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81YlRxyXhHrGN5Wn1odSgw"/>
+        <rdfs:label>Consumer Automobile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFuATmIOBkNClV1dY0YBwF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDFuATmIOBkNClV1dY0YBwF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh"/>
+        <rdfs:label>Tiguan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDI1WC3bNvUWeg0DAsPjt2w -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDI1WC3bNvUWeg0DAsPjt2w">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLa0s4WRQGJ0XjuJPF2kMx"/>
+        <rdfs:label>Golf (Standard)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLXhLtYCgAAwl4zk7qL3iQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLXhLtYCgAAwl4zk7qL3iQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh"/>
+        <rdfs:label>Beetle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWMjs52KNml0wyVgcJqx1t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWMjs52KNml0wyVgcJqx1t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLa0s4WRQGJ0XjuJPF2kMx"/>
+        <rdfs:label>Golf GTI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rp98tx9ZmeXNQykYxseaOh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD06CRBvPLON4xHsvzmjwEL"/>
+        <rdfs:comment xml:lang="en">An automobile designed and manufactured by Volkvagon</rdfs:comment>
+        <rdfs:label>Volkvagon Automobile</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.volkwagon.com"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.1) https://github.com/owlcs/owlapi -->
+
